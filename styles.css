@@ -1,0 +1,36 @@
+#push{
+    margin-bottom: 95px;
+}
+.container{
+    border: 2px solid blue;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 15px;
+}
+input{
+    padding: 10px;
+    width: 180px;
+    border-color: blue; 
+    border-radius: 5px;
+}
+h2, h1{
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+#loginUser::placeholder, #loginPass::placeholder, #signUser::placeholder, #signPass::placeholder {
+    color: rgb(177, 167, 167);
+    font-style: italic;
+}
